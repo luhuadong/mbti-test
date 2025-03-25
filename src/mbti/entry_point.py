@@ -1,6 +1,14 @@
 import argparse
+import sys
 from mbti.test import run_test
 from mbti.results import save_results
+from mbti.i18n.core import translator
+
+SUPPORTED_LANGUAGES = {
+    'zh': '简体中文',
+    'en': 'English (US)',
+    # 可扩展其他语言
+}
 
 def main():
     parser = argparse.ArgumentParser(description='MBTI Personality Test Command Line Program')
@@ -8,7 +16,7 @@ def main():
     parser.add_argument('--short', action='store_true', help='Run the 28-question version')
     parser.add_argument('--long', action='store_true', help='Run the 93-question version')
     parser.add_argument('--save', action='store_true', help='Save results to a CSV file')
-    parser.add_argument('--language', choices=['zh', 'en'], default='zh', help='Choose language (zh for Chinese, en for English)')
+    parser.add_argument('--lang', choices=SUPPORTED_LANGUAGES.keys(), default='zh', help=f"Available languages: {', '.join(SUPPORTED_LANGUAGES.values())}")
 
     args = parser.parse_args()
 
@@ -24,12 +32,18 @@ def main():
         # Default to short if neither is specified
         test_version = 'quick'
 
+    try:
+        translator.set_language(args.lang)
+    except ValueError as e:
+        print(f"Error: {e}")
+        sys.exit(1)
+
     # Run the test
-    results = run_test(test_version, args.language)
+    results = run_test(test_version, args.lang)
 
     # Save results if requested
     if args.save and results:
-        save_results(results, args.language)
+        save_results(results, args.lang)
 
 if __name__ == "__main__":
     main()

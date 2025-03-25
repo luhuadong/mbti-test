@@ -1,0 +1,66 @@
+{
+    "meta": {
+      "language": "English (US)",
+      "version": "1.0.0",
+      "last_updated": "2024-03-20"
+    },
+    "test_version": {
+      "quick": "Quick",
+      "standard": "Standard"
+    },
+    "test_ui": {
+      "welcome": "🎮 MBTI Personality Test ({version})",
+      "stats": "▶ Language: {language} | Questions: {count}",
+      "press_start": "⏎ Press Enter to start...",
+      "progress_title": "┌─────────────────────────────────────────────────┐\n│ Progress: {bar} {current}/{total} │\n└─────────────────────────────────────────────────┘",
+      "current_question": "Question {current}",
+      "option_prompt": "Enter choice ({options}): ",
+      "invalid_input": "⚠ Invalid input, please choose {options}",
+      "complete": "✨ Test complete! Generating results..."
+    },
+    "dimensions": {
+      "EI": {
+        "E": "Extraversion (E)",
+        "I": "Introversion (I)"
+      },
+      "SN": {
+        "S": "Sensing (S)",
+        "N": "Intuition (N)"
+      },
+      "TF": {
+        "T": "Thinking (T)",
+        "F": "Feeling (F)"
+      },
+      "JP": {
+        "J": "Judging (J)",
+        "P": "Perceiving (P)"
+      }
+    },
+    "results": {
+      "title": "Your MBTI Results:",
+      "overall": "Overall Type",
+      "scores": "Dimension Scores",
+      "vs": " vs ",
+      "tie_warning": "[Notice] Tied scores detected",
+      "tie_note": "Applied default selection per guidelines (I/N/F/P)"
+    },
+    "saving": {
+      "success": "Results saved to: {filename}",
+      "columns": {
+        "Dimension": "Dimension",
+        "Score_E": "E Score",
+        "Score_I": "I Score", 
+        "Score_S": "S Score",
+        "Score_N": "N Score",
+        "Score_T": "T Score",
+        "Score_F": "F Score",
+        "Score_J": "J Score",
+        "Score_P": "P Score",
+        "Type": "Type"
+      }
+    },
+    "errors": {
+      "file_not_found": "Error: Question file {filename} not found",
+      "invalid_dimension": "Invalid dimension: {dimension}"
+    }
+  }

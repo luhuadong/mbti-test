@@ -1,7 +1,11 @@
 import json
 import os
+from mbti.i18n.core import translator
 
 def load_questions(version='quick', language='zh'):
+
+    translator.language = language
+
     # Determine the path to the questions file
     current_dir = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(current_dir, 'data')
