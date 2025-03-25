@@ -15,7 +15,7 @@ def display_results(results, language='zh'):
             't': '思考 (T)',
             'f': '情感 (F)',
             'j': '判断 (J)',
-            'p': '感知 (P)'
+            'p': '知觉 (P)'
         },
         'en': {
             'type': 'Your MBTI Type Results:',
