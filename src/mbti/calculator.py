@@ -39,11 +39,14 @@ def calculate_mbti_type(answers):
                 scores['P'] += 1
 
     # Determine the dominant type for each dimension
+    # 处理规则：
+    # - 当某维度得分相同时，按照 MBTI 官方建议选择后半部分类型 (I/N/F/P)
+    # - 此规则基于 Myers-Briggs 基金会建议：https://www.myersbriggs.org/
     mbti_type = ''
-    mbti_type += 'E' if scores['E'] > scores['I'] else 'I'
-    mbti_type += 'S' if scores['S'] > scores['N'] else 'N'
-    mbti_type += 'T' if scores['T'] > scores['F'] else 'F'
-    mbti_type += 'J' if scores['J'] > scores['P'] else 'P'
+    mbti_type += 'E' if scores['E'] > scores['I'] else 'I'  # EI 平分选 I
+    mbti_type += 'S' if scores['S'] > scores['N'] else 'N'  # SN 平分选 N
+    mbti_type += 'T' if scores['T'] > scores['F'] else 'F'  # TF 平分选 F
+    mbti_type += 'J' if scores['J'] > scores['P'] else 'P'  # JP 平分选 P
 
     return {
         'scores': scores,
