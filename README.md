@@ -1,5 +1,7 @@
 # MBTI-Test
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/) [![PyPI Version](https://img.shields.io/pypi/v/mbti-test.svg)](https://pypi.org    /project/mbti-test/)
+
 [中文](README_zh.md) | [English](README.md)
 
 MBTI-Test is a command line application for taking the MBTI personality test, written in Python.

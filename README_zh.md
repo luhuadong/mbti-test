@@ -1,5 +1,7 @@
 # MBTI-Test
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/) [![PyPI Version](https://img.shields.io/pypi/v/mbti-test.svg)](https://pypi.org    /project/mbti-test/)
+
 [English](README.md) | [中文](README_zh.md)
 
 MBTI-Test 是一个用于进行 MBTI 人格测试的命令行应用程序，使用 Python 编写。
@@ -18,7 +20,7 @@ MBTI-Test 是一个用于进行 MBTI 人格测试的命令行应用程序，使�
 ## 安装
 
 ```bash
-pip install mbti-test-cli
+pip install mbti-test
 ```
 
 ## 使用

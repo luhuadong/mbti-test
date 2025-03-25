@@ -2,8 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name='mbti-test',
-    version='1.0.0',
-    packages=find_packages(),
+    version='0.1.0',
+    package_dir={'': 'src'},
+    packages=find_packages(where='src'),
     install_requires=[
         # 添加项目依赖项
     ],
@@ -18,6 +19,7 @@ setup(
             'data/questions_standard.json'
         ]
     },
+    include_package_data=True,
     author='luhuadong',
     author_email='luhuadong@163.com',
     description='A command line application for taking the MBTI personality test',
