@@ -1,0 +1,340 @@
+{
+    "MBTI_questions": [
+      {
+        "id": 1,
+        "question": {
+          "zh": "你更喜欢与少数几个亲密朋友共度时光，而不是参加大型社交活动。",
+          "en": "You prefer spending time with a few close friends rather than attending large social events."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "EI"
+      },
+      {
+        "id": 2,
+        "question": {
+          "zh": "在解决问题时，你更倾向于依赖逻辑和分析，而不是个人感受。",
+          "en": "When solving problems, you rely more on logic and analysis than on personal feelings."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "TF"
+      },
+      {
+        "id": 3,
+        "question": {
+          "zh": "你更喜欢有计划和安排的活动，而不是即兴的活动。",
+          "en": "You prefer planned and scheduled activities over spontaneous ones."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "JP"
+      },
+      {
+        "id": 4,
+        "question": {
+          "zh": "你更关注具体的事实和细节，而不是抽象的概念和可能性。",
+          "en": "You focus more on concrete facts and details rather than abstract concepts and possibilities."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "SN"
+      },
+      {
+        "id": 5,
+        "question": {
+          "zh": "在团队中，你更喜欢担任协调和组织的角色，而不是执行具体任务的角色。",
+          "en": "In a team, you prefer to take on coordinating and organizing roles rather than executing specific tasks."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "JP"
+      },
+      {
+        "id": 6,
+        "question": {
+          "zh": "你更倾向于通过直接和坦率的沟通来解决问题，而不是委婉和间接的方式。",
+          "en": "You prefer direct and candid communication to solve problems rather than indirect and subtle approaches."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "TF"
+      },
+      {
+        "id": 7,
+        "question": {
+          "zh": "你更喜欢探索新的想法和可能性，而不是遵循传统的方法。",
+          "en": "You prefer exploring new ideas and possibilities over following traditional methods."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "SN"
+      },
+      {
+        "id": 8,
+        "question": {
+          "zh": "在社交场合中，你更喜欢观察和倾听，而不是成为众人关注的焦点。",
+          "en": "In social situations, you prefer to observe and listen rather than be the center of attention."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "EI"
+      },
+      {
+        "id": 9,
+        "question": {
+          "zh": "你更倾向于根据个人价值观来做决策，而不是严格遵循规则。",
+          "en": "You make decisions based on personal values rather than strictly following rules."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "TF"
+      },
+      {
+        "id": 10,
+        "question": {
+          "zh": "你更喜欢灵活和开放的环境，而不是结构化和固定的环境。",
+          "en": "You prefer flexible and open environments over structured and fixed ones."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "JP"
+      },
+      {
+        "id": 11,
+        "question": {
+          "zh": "你更关注当前的现实情况，而不是未来的可能性。",
+          "en": "You focus more on current realities than on future possibilities."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "SN"
+      },
+      {
+        "id": 12,
+        "question": {
+          "zh": "你更喜欢与他人合作完成任务，而不是独自工作。",
+          "en": "You prefer working with others to complete tasks rather than working alone."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "EI"
+      },
+      {
+        "id": 13,
+        "question": {
+          "zh": "在做决定时，你更倾向于考虑长远的影响，而不是眼前的利益。",
+          "en": "When making decisions, you consider long-term impacts over short-term gains."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "TF"
+      },
+      {
+        "id": 14,
+        "question": {
+          "zh": "你更喜欢有明确截止日期的任务，而不是可以随时调整时间的任务。",
+          "en": "You prefer tasks with clear deadlines over those with flexible timeframes."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "JP"
+      },
+      {
+        "id": 15,
+        "question": {
+          "zh": "你更倾向于相信直觉和灵感，而不是经验和常识。",
+          "en": "You trust intuition and inspiration more than experience and common sense."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "SN"
+      },
+      {
+        "id": 16,
+        "question": {
+          "zh": "在学习新知识时，你更喜欢通过实践和操作来理解，而不是通过理论和讲解。",
+          "en": "When learning new things, you prefer hands-on practice over theoretical explanations."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "SN"
+      },
+      {
+        "id": 17,
+        "question": {
+          "zh": "你更喜欢在决策时考虑他人的感受，而不是单纯追求效率和结果。",
+          "en": "You consider others' feelings when making decisions rather than focusing solely on efficiency and results."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "TF"
+      },
+      {
+        "id": 18,
+        "question": {
+          "zh": "你更倾向于提前准备好所有细节，而不是在过程中逐步完善。",
+          "en": "You prefer to prepare all details in advance rather than perfecting them during the process."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "JP"
+      },
+      {
+        "id": 19,
+        "question": {
+          "zh": "你更喜欢与人进行深入的一对一交流，而不是在群体中活跃。",
+          "en": "You prefer deep one-on-one conversations over being active in groups."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "EI"
+      },
+      {
+        "id": 20,
+        "question": {
+          "zh": "在面对问题时，你更倾向于寻找客观的事实和数据来支持你的观点。",
+          "en": "When facing issues, you look for objective facts and data to support your views."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "TF"
+      },
+      {
+        "id": 21,
+        "question": {
+          "zh": "你更喜欢有明确规则和流程的工作环境，而不是自由度较高的环境。",
+          "en": "You prefer work environments with clear rules and processes over those with high freedom."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "JP"
+      },
+      {
+        "id": 22,
+        "question": {
+          "zh": "你更关注事物的潜在意义和影响，而不是表面的现象。",
+          "en": "You focus more on the potential meaning and impact of things rather than their surface appearances."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "SN"
+      },
+      {
+        "id": 23,
+        "question": {
+          "zh": "在社交活动中，你更喜欢作为组织者或策划者，而不是参与者。",
+          "en": "In social activities, you prefer to be the organizer or planner rather than a participant."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "EI"
+      },
+      {
+        "id": 24,
+        "question": {
+          "zh": "你更倾向于通过协商和妥协来解决冲突，而不是坚持自己的立场。",
+          "en": "You resolve conflicts through negotiation and compromise rather than holding firm to your position."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "TF"
+      },
+      {
+        "id": 25,
+        "question": {
+          "zh": "你更喜欢在项目开始时就有一个清晰的计划，而不是边做边调整。",
+          "en": "You prefer to have a clear plan at the start of a project rather than adjusting as you go."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "JP"
+      },
+      {
+        "id": 26,
+        "question": {
+          "zh": "你更倾向于相信科学和逻辑，而不是直觉和灵感。",
+          "en": "You trust science and logic more than intuition and inspiration."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "SN"
+      },
+      {
+        "id": 27,
+        "question": {
+          "zh": "在与他人合作时，你更喜欢明确分工，而不是灵活调整各自的任务。",
+          "en": "When collaborating with others, you prefer clear division of labor over flexible task adjustments."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "JP"
+      },
+      {
+        "id": 28,
+        "question": {
+          "zh": "你更喜欢在安静的环境中独自思考，而不是在热闹的氛围中获取灵感。",
+          "en": "You prefer quiet environments for thinking alone rather than seeking inspiration in lively atmospheres."
+        },
+        "options": {
+          "zh": ["是", "否"],
+          "en": ["Yes", "No"]
+        },
+        "dimension": "EI"
+      }
+    ]
+}
