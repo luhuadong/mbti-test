@@ -12,7 +12,7 @@ This program allows users to take the MBTI personality test directly from the co
 
 ## Features
 
-- Two test versions: quick (28 questions) and comprehensive (93 questions)
+- Two test versions: quick (28 questions) and standard (93 questions)
 - Command line interface for easy access
 - Result calculation and display
 - Option to save results to a CSV file
