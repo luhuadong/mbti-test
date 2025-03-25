@@ -42,8 +42,8 @@ def display_results(results, language='zh'):
 
 def save_results(results, language='zh'):
     # Create results directory if it doesn't exist
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    results_dir = os.path.join(current_dir, '..', '..', 'results')
+    current_dir = os.getcwd()
+    results_dir = os.path.join(current_dir, 'results')
     os.makedirs(results_dir, exist_ok=True)
 
     # Generate filename with timestamp
