@@ -12,7 +12,7 @@ This program allows users to take the MBTI personality test directly from the co
 
 ## Features
 
-- Two test versions: quick (28 questions) and standard (93 questions)
+- Multiple test versions: quick (28 questions), common (40 questions) and standard (93 questions)
 - Command line interface for easy access
 - Result calculation and display
 - Option to save results to a CSV file
@@ -25,11 +25,40 @@ pip install mbti-test
 
 ## Usage
 
+mbti-test command line usage examples：
+
 ```bash
-mbti-test --version         # Show the version
-mbti-test --help            # Show help information
-mbti-test --short           # Run the 28-question version
-mbti-test --long            # Run the 93-question version
-mbti-test --save            # Save results to CSV file
+mbti-test --help                     # Show help information
+mbti-test --questions 40             # Run the 40-question version（Default is Chinese）
+mbti-test --questions 40 --lang en   # Run the 40-question version（English）
+mbti-test --questions 40 --save      # Run the 40-question version, and save results to CSV file
+mbti-test --version                  # Show the version
+```
+
+## Run Test
+
+Execute the following command to start the test (common version).
+
+```bash
+mbti-test --questions 40 --lang en
+```
+
+MBTI test interface screenshot:
+
+![](./figures/mbti-test-demo-en.jpg)
+
+MBTI test result output:
+
+```bash
+✨ Test complete! Generating results...
+
+Your MBTI Type Results:
+Overall Type: INTJ
+
+Dimension Scores:
+Extraversion (E) vs Introversion (I): 5 - 6
+Sensing (S) vs Intuition (N): 3 - 6
+Thinking (T) vs Feeling (F): 6 - 3
+Judging (J) vs Perceiving (P): 6 - 5
 ```
 

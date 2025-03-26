@@ -12,7 +12,7 @@ MBTI-Test 是一个用于进行 MBTI 人格测试的命令行应用程序，使�
 
 ## 功能
 
-- 两个测试版本：快速（28 题）和标准（93 题）
+- 多个测试版本：极速体验版（28 题）、通用测试版（40 题）和标准完整版（93 题）
 - 简单易用的命令行界面
 - 结果计算与展示
 - 可将结果保存到 CSV 文件
@@ -25,11 +25,40 @@ pip install mbti-test
 
 ## 使用
 
+mbti-test 命令行使用示例：
+
 ```bash
-mbti-test --version         # 显示版本信息
-mbti-test --help            # 显示帮助信息
-mbti-test --short           # 运行 28 题版本
-mbti-test --long            # 运行 93 题版本
-mbti-test --save            # 将结果保存到 CSV 文件
+mbti-test --help                     # 显示帮助信息
+mbti-test --questions 40             # 运行 40 题通用测试版本（默认为中文）
+mbti-test --questions 40 --lang en   # 运行 40 题通用测试版本（英文）
+mbti-test --questions 40 --save      # 运行 40 题通用测试版本，并将结果保存到 CSV 文件
+mbti-test --version                  # 显示版本信息
+```
+
+## 运行测试
+
+执行下面命令开始测试（通用版）：
+
+```bash
+mbti-test --questions 40
+```
+
+MBTI 测试界面截图：
+
+![](./figures/mbti-test-demo-zh.jpg)
+
+MBTI 测试结果输出：
+
+```bash
+✨ 测试完成！正在生成结果...
+
+你的 MBTI 类型结果:
+总体类型: INTJ
+
+维度得分:
+外向 (E) vs 内向 (I): 5 - 6
+实感 (S) vs 直觉 (N): 3 - 6
+理智 (T) vs 情感 (F): 6 - 3
+判断 (J) vs 理解 (P): 6 - 5
 ```
 
