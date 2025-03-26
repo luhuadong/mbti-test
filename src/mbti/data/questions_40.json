@@ -1,484 +1,484 @@
 {
-    "MBTI_questions": [
-      {
-        "id": 1,
-        "question": {
-          "zh": "更符合我的陈述是：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["我说话的速度经常比我想的要快。", "有时我想了很久，缺什么也没说。"],
-          "en": ["", ""]
-        },
-        "dimension": "EI"
+  "MBTI_questions": [
+    {
+      "id": 1,
+      "question": {
+        "zh": "更符合我的陈述是：",
+        "en": "Which statement is more accurate for me:"
       },
-      {
-        "id": 2,
-        "question": {
-          "zh": "长期计划让我觉得：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["让一切尽在掌控之中。", "受到束缚。"],
-          "en": ["", ""]
-        },
-        "dimension": "JP"
+      "options": {
+        "zh": ["我说话的速度经常比我想的要快。", "有时我想了很久，缺什么也没说。"],
+        "en": ["I often speak faster than I think.", "Sometimes I think deeply but struggle to articulate it."]
       },
-      {
-        "id": 3,
-        "question": {
-          "zh": "更符合我的陈述是：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["错误立即引起我的注意。", "我对身边人的情绪很敏感。"],
-          "en": ["", ""]
-        },
-        "dimension": "TF"
+      "dimension": "EI"
+    },
+    {
+      "id": 2,
+      "question": {
+        "zh": "长期计划让我觉得：",
+        "en": "Long-term plans make me feel:"
       },
-      {
-        "id": 4,
-        "question": {
-          "zh": "需要耐心和细心的工作，我觉得如何？",
-          "en": ""
-        },
-        "options": {
-          "zh": ["大多数让我感到开心。", "对我来说更像是一种折磨。"],
-          "en": ["", ""]
-        },
-        "dimension": "SN"
+      "options": {
+        "zh": ["让一切尽在掌控之中。", "受到束缚。"],
+        "en": ["In control of everything.", "Restricted."]
       },
-      {
-        "id": 5,
-        "question": {
-          "zh": "更符合我的陈述是：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["先工作，再玩耍。", "工作和休闲对我来说并没有那么清楚地分开。"],
-          "en": ["", ""]
-        },
-        "dimension": "JP"
+      "dimension": "JP"
+    },
+    {
+      "id": 3,
+      "question": {
+        "zh": "更符合我的陈述是：",
+        "en": "Which statement resonates more with me:"
       },
-      {
-        "id": 6,
-        "question": {
-          "zh": "在关系中，我非常重视：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["真相和公平。", "和谐与同理心。"],
-          "en": ["", ""]
-        },
-        "dimension": "TF"
+      "options": {
+        "zh": ["错误立即引起我的注意。", "我对身边人的情绪很敏感。"],
+        "en": ["Mistakes immediately catch my attention.", "I'm highly attuned to others' emotions."]
       },
-      {
-        "id": 7,
-        "question": {
-          "zh": "当我修修补补或做手工时：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["我仔细而准确。", "我更多是凭感觉和估计。"],
-          "en": ["", ""]
-        },
-        "dimension": "SN"
+      "dimension": "TF"
+    },
+    {
+      "id": 4,
+      "question": {
+        "zh": "需要耐心和细心的工作，我觉得如何？",
+        "en": "How do I feel about tasks requiring patience and attention to detail?"
       },
-      {
-        "id": 8,
-        "question": {
-          "zh": "如果必须选择，我宁愿将自己描述为：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["现实主义者。", "理想主义者。"],
-          "en": ["", ""]
-        },
-        "dimension": "SN"
+      "options": {
+        "zh": ["大多数让我感到开心。", "对我来说更像是一种折磨。"],
+        "en": ["They generally bring me satisfaction.", "They feel more like torture to me."]
       },
-      {
-        "id": 9,
-        "question": {
-          "zh": "更符合我的陈述是：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["我家里一切都井然有序。", "我家里有种“创造性的混乱”。"],
-          "en": ["", ""]
-        },
-        "dimension": "JP"
+      "dimension": "SN"
+    },
+    {
+      "id": 5,
+      "question": {
+        "zh": "更符合我的陈述是：",
+        "en": "Which statement better describes me:"
       },
-      {
-        "id": 10,
-        "question": {
-          "zh": "我的优势更多在于：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["安排得井井有条。", "灵活应对意外情况。"],
-          "en": ["", ""]
-        },
-        "dimension": "JP"
+      "options": {
+        "zh": ["先工作，再玩耍。", "工作和休闲对我来说并没有那么清楚地分开。"],
+        "en": ["Work first, play later.", "Work and leisure aren't clearly separated for me."]
       },
-      {
-        "id": 11,
-        "question": {
-          "zh": "在公司时：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["我很喜欢说。", "我听得多。"],
-          "en": ["", ""]
-        },
-        "dimension": "EI"
+      "dimension": "JP"
+    },
+    {
+      "id": 6,
+      "question": {
+        "zh": "在关系中，我非常重视：",
+        "en": "In relationships, I value most:"
       },
-      {
-        "id": 12,
-        "question": {
-          "zh": "有问题时：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["我藏不住话。", "我很少说，就算说也只告诉几个人。"],
-          "en": ["", ""]
-        },
-        "dimension": "EI"
+      "options": {
+        "zh": ["真相和公平。", "和谐与同理心。"],
+        "en": ["Truth and fairness.", "Harmony and empathy."]
       },
-      {
-        "id": 13,
-        "question": {
-          "zh": "我宁愿：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["被叫作有头脑的人。", "被叫作有感情的人。"],
-          "en": ["", ""]
-        },
-        "dimension": "TF"
+      "dimension": "TF"
+    },
+    {
+      "id": 7,
+      "question": {
+        "zh": "当我修修补补或做手工时：",
+        "en": "When tinkering or doing hands-on work:"
       },
-      {
-        "id": 14,
-        "question": {
-          "zh": "等客人时：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["我通常在客人到来前一刻钟完成准备工作。", "第一个客人到达时，我还在准备。"],
-          "en": ["", ""]
-        },
-        "dimension": "JP"
+      "options": {
+        "zh": ["我仔细而准确。", "我更多是凭感觉和估计。"],
+        "en": ["I'm meticulous and precise.", "I rely more on intuition and estimation."]
       },
-      {
-        "id": 15,
-        "question": {
-          "zh": "我有：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["对细节的良好感知。", "对细节的拙劣感知。"],
-          "en": ["", ""]
-        },
-        "dimension": "SN"
+      "dimension": "SN"
+    },
+    {
+      "id": 8,
+      "question": {
+        "zh": "如果必须选择，我宁愿将自己描述为：",
+        "en": "If forced to choose, I'd rather describe myself as:"
       },
-      {
-        "id": 16,
-        "question": {
-          "zh": "更符合我的陈述是：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["我想在星期一就知道周末有什么计划。", "我宁愿等着看周末能干啥。"],
-          "en": ["", ""]
-        },
-        "dimension": "JP"
+      "options": {
+        "zh": ["现实主义者。", "理想主义者。"],
+        "en": ["A realist.", "An idealist."]
       },
-      {
-        "id": 17,
-        "question": {
-          "zh": "我最好的充电方式是：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["在熟悉的圈子里放松。", "有时间独处。"],
-          "en": ["", ""]
-        },
-        "dimension": "EI"
+      "dimension": "SN"
+    },
+    {
+      "id": 9,
+      "question": {
+        "zh": "更符合我的陈述是：",
+        "en": "Which statement aligns better with me:"
       },
-      {
-        "id": 18,
-        "question": {
-          "zh": "更符合我的陈述是：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["我会读新设备的使用说明。", "迫不得已时，我才读使用说明。"],
-          "en": ["", ""]
-        },
-        "dimension": "SN"
+      "options": {
+        "zh": ["我家里一切都井然有序。", "我家里有种“创造性的混乱”。"],
+        "en": ["My home is perfectly organized.", "My home has a 'creative chaos' vibe."]
       },
-      {
-        "id": 19,
-        "question": {
-          "zh": "让我很烦的是：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["有人说话不算话。", "有人不懂变通。"],
-          "en": ["", ""]
-        },
-        "dimension": "JP"
+      "dimension": "JP"
+    },
+    {
+      "id": 10,
+      "question": {
+        "zh": "我的优势更多在于：",
+        "en": "My strength lies more in:"
       },
-      {
-        "id": 20,
-        "question": {
-          "zh": "更符合我的陈述是：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["我的情绪大多数时候写在脸上。", "其他人不太容易看得出我心里在想什么。"],
-          "en": ["", ""]
-        },
-        "dimension": "EI"
+      "options": {
+        "zh": ["安排得井井有条。", "灵活应对意外情况。"],
+        "en": ["Organizing things systematically.", "Adapting flexibly to surprises."]
       },
-      {
-        "id": 21,
-        "question": {
-          "zh": "更符合我的陈述是：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["我通常能很好地管理自己的时间。", "我经常在最后一分钟完成工作。"],
-          "en": ["", ""]
-        },
-        "dimension": "JP"
+      "dimension": "JP"
+    },
+    {
+      "id": 11,
+      "question": {
+        "zh": "在公司时：",
+        "en": "At company gatherings:"
       },
-      {
-        "id": 22,
-        "question": {
-          "zh": "我宁愿有：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["一种实际的才能。", "哲学的天赋。"],
-          "en": ["", ""]
-        },
-        "dimension": "SN"
+      "options": {
+        "zh": ["我很喜欢说。", "我听得多。"],
+        "en": ["I enjoy speaking up.", "I listen more than I speak."]
       },
-      {
-        "id": 23,
-        "question": {
-          "zh": "必须做出决定时，我会在有疑问时依靠：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["客观事实。", "我的感觉。"],
-          "en": ["", ""]
-        },
-        "dimension": "TF"
+      "dimension": "EI"
+    },
+    {
+      "id": 12,
+      "question": {
+        "zh": "有问题时：",
+        "en": "When facing problems:"
       },
-      {
-        "id": 24,
-        "question": {
-          "zh": "与他人长时间相处时：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["我不觉得累。", "我经常觉得很累。"],
-          "en": ["", ""]
-        },
-        "dimension": "EI"
+      "options": {
+        "zh": ["我藏不住话。", "我很少说，就算说也只告诉几个人。"],
+        "en": ["I can't keep it to myself.", "I rarely share, and only with select few."]
       },
-      {
-        "id": 25,
-        "question": {
-          "zh": "我更喜欢哪种工作：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["需要理性行动和分析思维。", "需要社交技巧和同理心"],
-          "en": ["", ""]
-        },
-        "dimension": "TF"
+      "dimension": "EI"
+    },
+    {
+      "id": 13,
+      "question": {
+        "zh": "我宁愿：",
+        "en": "I would rather be:"
       },
-      {
-        "id": 26,
-        "question": {
-          "zh": "与一群朋友一起旅行时：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["我几乎可以一直身边有人。", "我不时地需要独处的时间。"],
-          "en": ["", ""]
-        },
-        "dimension": "EI"
+      "options": {
+        "zh": ["被叫作有头脑的人。", "被叫作有感情的人。"],
+        "en": ["Known as cerebral.", "Known as compassionate."]
       },
-      {
-        "id": 27,
-        "question": {
-          "zh": "更符合我的陈述是：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["我通常让我的想法和感受脱口而出。", "在我输出想法和感受之前，我通常会想很久。"],
-          "en": ["", ""]
-        },
-        "dimension": "EI"
+      "dimension": "TF"
+    },
+    {
+      "id": 14,
+      "question": {
+        "zh": "等客人时：",
+        "en": "When expecting guests:"
       },
-      {
-        "id": 28,
-        "question": {
-          "zh": "更符合我的陈述是：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["我的想法更多的是关注此时此地。", "我经常思考未来及其可能性。"],
-          "en": ["", ""]
-        },
-        "dimension": "SN"
+      "options": {
+        "zh": ["我通常在客人到来前一刻钟完成准备工作。", "第一个客人到达时，我还在准备。"],
+        "en": ["I finish preparations 15 minutes early.", "I'm still preparing when the first guest arrives."]
       },
-      {
-        "id": 29,
-        "question": {
-          "zh": "我更喜欢的工作领域是：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["准确性和事实性知识很重要。", "其中需要许多新概念。"],
-          "en": ["", ""]
-        },
-        "dimension": "SN"
+      "dimension": "JP"
+    },
+    {
+      "id": 15,
+      "question": {
+        "zh": "我有：",
+        "en": "I have:"
       },
-      {
-        "id": 30,
-        "question": {
-          "zh": "下面的表达方式，哪一种更适合我？",
-          "en": ""
-        },
-        "options": {
-          "zh": ["严厉但公平！", "情大于法。"],
-          "en": ["", ""]
-        },
-        "dimension": "TF"
+      "options": {
+        "zh": ["对细节的良好感知。", "对细节的拙劣感知。"],
+        "en": ["A keen eye for details.", "Poor attention to details."]
       },
-      {
-        "id": 31,
-        "question": {
-          "zh": "更符合我的陈述是：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["我通常会很快就去处理不愉快的事情，想赶紧摆脱。", "我经常把不愉快的事情拖了又拖。"],
-          "en": ["", ""]
-        },
-        "dimension": "JP"
+      "dimension": "SN"
+    },
+    {
+      "id": 16,
+      "question": {
+        "zh": "更符合我的陈述是：",
+        "en": "Which statement fits me better:"
       },
-      {
-        "id": 32,
-        "question": {
-          "zh": "其他人会形容我为：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["健谈而开放。", "腼腆而安静。"],
-          "en": ["", ""]
-        },
-        "dimension": "EI"
+      "options": {
+        "zh": ["我想在星期一就知道周末有什么计划。", "我宁愿等着看周末能干啥。"],
+        "en": ["I want weekend plans settled by Monday.", "I prefer waiting to see what weekend brings."]
       },
-      {
-        "id": 33,
-        "question": {
-          "zh": "更符合我的陈述是：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["我相当自然而强烈地体验我的感受。", "我不太容易情绪化。"],
-          "en": ["", ""]
-        },
-        "dimension": "EI"
+      "dimension": "JP"
+    },
+    {
+      "id": 17,
+      "question": {
+        "zh": "我最好的充电方式是：",
+        "en": "I recharge best by:"
       },
-      {
-        "id": 34,
-        "question": {
-          "zh": "在什么情况下，我的工作效率最高？",
-          "en": ""
-        },
-        "options": {
-          "zh": ["提前，当我知道我还有足够的时间时。", "最后，时间紧迫。"],
-          "en": ["", ""]
-        },
-        "dimension": "JP"
+      "options": {
+        "zh": ["在熟悉的圈子里放松。", "有时间独处。"],
+        "en": ["Relaxing with familiar circles.", "Having alone time."]
       },
-      {
-        "id": 35,
-        "question": {
-          "zh": "我更喜欢：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["谈论事实话题。", "谈论人际关系。"],
-          "en": ["", ""]
-        },
-        "dimension": "TF"
+      "dimension": "EI"
+    },
+    {
+      "id": 18,
+      "question": {
+        "zh": "更符合我的陈述是：",
+        "en": "Which describes me better:"
       },
-      {
-        "id": 36,
-        "question": {
-          "zh": "更符合我的陈述是：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["我更喜欢关注具体的东西。", "我喜欢思考“生活中的大问题”。"],
-          "en": ["", ""]
-        },
-        "dimension": "SN"
+      "options": {
+        "zh": ["我会读新设备的使用说明。", "迫不得已时，我才读使用说明。"],
+        "en": ["I read manuals for new devices.", "I only read manuals when forced to."]
       },
-      {
-        "id": 37,
-        "question": {
-          "zh": "我更可能会：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["惹人生气。", "不怎么坚持我的立场。"],
-          "en": ["", ""]
-        },
-        "dimension": "TF"
+      "dimension": "SN"
+    },
+    {
+      "id": 19,
+      "question": {
+        "zh": "让我很烦的是：",
+        "en": "What annoys me more:"
       },
-      {
-        "id": 38,
-        "question": {
-          "zh": "在空闲时间，我倾向于选择：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["社交活动或谈话。", "看一本好书或一部好电影。"],
-          "en": ["", ""]
-        },
-        "dimension": "EI"
+      "options": {
+        "zh": ["有人说话不算话。", "有人不懂变通。"],
+        "en": ["People breaking promises.", "People being inflexible."]
       },
-      {
-        "id": 39,
-        "question": {
-          "zh": "我更可能的工作方式是：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["有纪律，有条理。", "爆发一股猛劲。"],
-          "en": ["", ""]
-        },
-        "dimension": "JP"
+      "dimension": "JP"
+    },
+    {
+      "id": 20,
+      "question": {
+        "zh": "更符合我的陈述是：",
+        "en": "Which statement matches me better:"
       },
-      {
-        "id": 40,
-        "question": {
-          "zh": "更符合我的陈述是：",
-          "en": ""
-        },
-        "options": {
-          "zh": ["我心大。", "我很容易被冒犯。"],
-          "en": ["", ""]
-        },
-        "dimension": "TF"
-      }
-    ]
+      "options": {
+        "zh": ["我的情绪大多数时候写在脸上。", "其他人不太容易看得出我心里在想什么。"],
+        "en": ["My emotions are usually visible.", "Others can't easily read my thoughts."]
+      },
+      "dimension": "EI"
+    },
+    {
+      "id": 21,
+      "question": {
+        "zh": "更符合我的陈述是：",
+        "en": "Which is more accurate:"
+      },
+      "options": {
+        "zh": ["我通常能很好地管理自己的时间。", "我经常在最后一分钟完成工作。"],
+        "en": ["I manage time effectively.", "I often work until the last minute."]
+      },
+      "dimension": "JP"
+    },
+    {
+      "id": 22,
+      "question": {
+        "zh": "我宁愿有：",
+        "en": "I'd rather have:"
+      },
+      "options": {
+        "zh": ["一种实际的才能。", "哲学的天赋。"],
+        "en": ["Practical skills.", "Philosophical talents."]
+      },
+      "dimension": "SN"
+    },
+    {
+      "id": 23,
+      "question": {
+        "zh": "必须做出决定时，我会在有疑问时依靠：",
+        "en": "When uncertain in decision-making, I rely on:"
+      },
+      "options": {
+        "zh": ["客观事实。", "我的感觉。"],
+        "en": ["Objective facts.", "My gut feelings."]
+      },
+      "dimension": "TF"
+    },
+    {
+      "id": 24,
+      "question": {
+        "zh": "与他人长时间相处时：",
+        "en": "After prolonged social interaction:"
+      },
+      "options": {
+        "zh": ["我不觉得累。", "我经常觉得很累。"],
+        "en": ["I don't feel drained.", "I often feel exhausted."]
+      },
+      "dimension": "EI"
+    },
+    {
+      "id": 25,
+      "question": {
+        "zh": "我更喜欢哪种工作：",
+        "en": "Which work do I prefer:"
+      },
+      "options": {
+        "zh": ["需要理性行动和分析思维。", "需要社交技巧和同理心"],
+        "en": ["Requiring rational analysis.", "Needing social skills and empathy."]
+      },
+      "dimension": "TF"
+    },
+    {
+      "id": 26,
+      "question": {
+        "zh": "与一群朋友一起旅行时：",
+        "en": "When traveling with friends:"
+      },
+      "options": {
+        "zh": ["我几乎可以一直身边有人。", "我不时地需要独处的时间。"],
+        "en": ["I'm comfortable with constant company.", "I need occasional alone time."]
+      },
+      "dimension": "EI"
+    },
+    {
+      "id": 27,
+      "question": {
+        "zh": "更符合我的陈述是：",
+        "en": "Which describes me better:"
+      },
+      "options": {
+        "zh": ["我通常让我的想法和感受脱口而出。", "在我输出想法和感受之前，我通常会想很久。"],
+        "en": ["I express thoughts/feelings immediately.", "I contemplate before sharing thoughts/feelings."]
+      },
+      "dimension": "EI"
+    },
+    {
+      "id": 28,
+      "question": {
+        "zh": "更符合我的陈述是：",
+        "en": "Which statement is truer:"
+      },
+      "options": {
+        "zh": ["我的想法更多的是关注此时此地。", "我经常思考未来及其可能性。"],
+        "en": ["My focus is on the here and now.", "I often ponder future possibilities."]
+      },
+      "dimension": "SN"
+    },
+    {
+      "id": 29,
+      "question": {
+        "zh": "我更喜欢的工作领域是：",
+        "en": "I prefer work environments emphasizing:"
+      },
+      "options": {
+        "zh": ["准确性和事实性知识很重要。", "其中需要许多新概念。"],
+        "en": ["Accuracy and factual knowledge.", "Innovative concepts."]
+      },
+      "dimension": "SN"
+    },
+    {
+      "id": 30,
+      "question": {
+        "zh": "下面的表达方式，哪一种更适合我？",
+        "en": "Which expression suits me better?"
+      },
+      "options": {
+        "zh": ["严厉但公平！", "情大于法。"],
+        "en": ["Strict but fair!", "Compassion overrules rules."]
+      },
+      "dimension": "TF"
+    },
+    {
+      "id": 31,
+      "question": {
+        "zh": "更符合我的陈述是：",
+        "en": "Which is more characteristic of me:"
+      },
+      "options": {
+        "zh": ["我通常会很快就去处理不愉快的事情，想赶紧摆脱。", "我经常把不愉快的事情拖了又拖。"],
+        "en": ["I tackle unpleasant tasks quickly.", "I procrastinate on unpleasant tasks."]
+      },
+      "dimension": "JP"
+    },
+    {
+      "id": 32,
+      "question": {
+        "zh": "其他人会形容我为：",
+        "en": "Others would describe me as:"
+      },
+      "options": {
+        "zh": ["健谈而开放。", "腼腆而安静。"],
+        "en": ["Talkative and outgoing.", "Reserved and quiet."]
+      },
+      "dimension": "EI"
+    },
+    {
+      "id": 33,
+      "question": {
+        "zh": "更符合我的陈述是：",
+        "en": "Which statement fits me better:"
+      },
+      "options": {
+        "zh": ["我相当自然而强烈地体验我的感受。", "我不太容易情绪化。"],
+        "en": ["I experience emotions intensely.", "I'm not very emotional."]
+      },
+      "dimension": "EI"
+    },
+    {
+      "id": 34,
+      "question": {
+        "zh": "在什么情况下，我的工作效率最高？",
+        "en": "When am I most productive?"
+      },
+      "options": {
+        "zh": ["提前，当我知道我还有足够的时间时。", "最后，时间紧迫。"],
+        "en": ["Early, with ample time remaining.", "Last-minute, under pressure."]
+      },
+      "dimension": "JP"
+    },
+    {
+      "id": 35,
+      "question": {
+        "zh": "我更喜欢：",
+        "en": "I prefer discussing:"
+      },
+      "options": {
+        "zh": ["谈论事实话题。", "谈论人际关系。"],
+        "en": ["Fact-based topics.", "Interpersonal relationships."]
+      },
+      "dimension": "TF"
+    },
+    {
+      "id": 36,
+      "question": {
+        "zh": "更符合我的陈述是：",
+        "en": "Which statement is truer:"
+      },
+      "options": {
+        "zh": ["我更喜欢关注具体的东西。", "我喜欢思考“生活中的大问题”。"],
+        "en": ["I focus on tangible matters.", "I ponder life's big questions."]
+      },
+      "dimension": "SN"
+    },
+    {
+      "id": 37,
+      "question": {
+        "zh": "我更可能会：",
+        "en": "I'm more likely to:"
+      },
+      "options": {
+        "zh": ["惹人生气。", "不怎么坚持我的立场。"],
+        "en": ["Risk upsetting others.", "Avoid asserting my position."]
+      },
+      "dimension": "TF"
+    },
+    {
+      "id": 38,
+      "question": {
+        "zh": "在空闲时间，我倾向于选择：",
+        "en": "In free time, I gravitate toward:"
+      },
+      "options": {
+        "zh": ["社交活动或谈话。", "看一本好书或一部好电影。"],
+        "en": ["Social activities or conversations.", "A good book or movie."]
+      },
+      "dimension": "EI"
+    },
+    {
+      "id": 39,
+      "question": {
+        "zh": "我更可能的工作方式是：",
+        "en": "My work style tends to be:"
+      },
+      "options": {
+        "zh": ["有纪律，有条理。", "爆发一股猛劲。"],
+        "en": ["Disciplined and systematic.", "Driven by intense bursts."]
+      },
+      "dimension": "JP"
+    },
+    {
+      "id": 40,
+      "question": {
+        "zh": "更符合我的陈述是：",
+        "en": "Which statement better describes me:"
+      },
+      "options": {
+        "zh": ["我心大。", "我很容易被冒犯。"],
+        "en": ["I'm thick-skinned.", "I get offended easily."]
+      },
+      "dimension": "TF"
+    }
+  ]
 }
