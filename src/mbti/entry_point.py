@@ -20,6 +20,9 @@ def main():
         available_counts = []
         print(f"Warning: {str(e)}")
     
+    if len(sys.argv) == 1:
+        sys.argv.append("--help")
+
     # parser = argparse.ArgumentParser(description='MBTI Personality Test Command Line Program')
     parser = argparse.ArgumentParser(
         description='MBTI Personality Test Command Line Program',
