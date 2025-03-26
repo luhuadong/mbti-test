@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='mbti-test',
-    version='0.3.0',
+    version='0.3.1',
     package_dir={'': 'src'},
     packages=find_packages(where='src'),
     install_requires=[
@@ -15,9 +15,8 @@ setup(
     },
     package_data={
         'mbti': [
-            'data/questions_28.json',
-            'data/questions_40.json',
-            'data/questions_93.json'
+            'data/*.json',
+            'i18n/*.json'
         ]
     },
     include_package_data=True,
