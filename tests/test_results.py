@@ -33,12 +33,12 @@ def test_display_results_zh():
     assert "维度得分" in output
     assert "外向 (E)" in output
     assert "内向 (I)" in output
-    assert "感知 (S)" in output
+    assert "实感 (S)" in output
     assert "直觉 (N)" in output
-    assert "思考 (T)" in output
+    assert "理智 (T)" in output
     assert "情感 (F)" in output
     assert "判断 (J)" in output
-    assert "感知 (P)" in output
+    assert "理解 (P)" in output
 
 def test_display_results_en():
     # 测试英文结果显示
