@@ -4,7 +4,7 @@
 
 [English](README.md) | [中文](README_zh.md)
 
-MBTI-Test 是一个用于进行 MBTI 人格测试的命令行应用程序，使用 Python 编写。
+MBTI-Test 是一个用于进行 MBTI 人格测试的命令行应用程序，使用 Python 编写，具有良好的交互界面，支持中英文测试，提供多个版本的 MBTI 测试题，测试结果准确。相对于市面上各种网页、App、小程序版的 MBTI 测试软件，mbti-test 是一个简单实用并且完全免费的工具。
 
 ## 描述
 
