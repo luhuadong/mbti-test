@@ -8,7 +8,7 @@ MBTI-Test is a command line application for taking the MBTI personality test, wr
 
 ## Description
 
-This program allows users to take the MBTI personality test directly from the command line. It includes both 28-question and 93-question versions of the test.
+This program allows users to take the MBTI personality test directly from the command line. It contains three versions of the test: 28 questions (Quick Test), 40 questions (Common Test), and 93 questions (Standard Test). Compared to the various web, app, and mini-program versions of MBTI test software on the market, it is a simple, practical, and completely free tool.
 
 ## Features
 
