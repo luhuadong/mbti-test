@@ -1,5 +1,6 @@
 import argparse
 import sys
+from mbti.questions import load_question_registry, validate_question_count
 from mbti.test import run_test
 from mbti.results import save_results
 from mbti.i18n.core import translator
@@ -11,26 +12,36 @@ SUPPORTED_LANGUAGES = {
 }
 
 def main():
-    parser = argparse.ArgumentParser(description='MBTI Personality Test Command Line Program')
-    parser.add_argument('--version', action='version', version='%(prog)s 1.0.0')
-    parser.add_argument('--short', action='store_true', help='Run the 28-question version')
-    parser.add_argument('--long', action='store_true', help='Run the 93-question version')
+    # 获取可用测试列表
+    try:
+        available_tests = load_question_registry()
+        available_counts = [str(test['question_count']) for test in available_tests]
+    except RuntimeError as e:
+        available_counts = []
+        print(f"Warning: {str(e)}")
+    
+    # parser = argparse.ArgumentParser(description='MBTI Personality Test Command Line Program')
+    parser = argparse.ArgumentParser(
+        description='MBTI Personality Test Command Line Program',
+        formatter_class=argparse.RawTextHelpFormatter
+    )
+    parser.add_argument('-q', '--questions',
+                        type=int,
+                        required=True,
+                        choices=[test['question_count'] for test in available_tests],
+                        metavar='N',
+                        help='\n'.join(
+                            [f"{test['question_count']} questions: {test['description']['en']}"
+                             for test in available_tests]
+                        ))
+    parser.add_argument('--lang', 
+                        choices=SUPPORTED_LANGUAGES.keys(), 
+                        default='zh', 
+                        help=f"Available languages: {', '.join(SUPPORTED_LANGUAGES.values())}")
     parser.add_argument('--save', action='store_true', help='Save results to a CSV file')
-    parser.add_argument('--lang', choices=SUPPORTED_LANGUAGES.keys(), default='zh', help=f"Available languages: {', '.join(SUPPORTED_LANGUAGES.values())}")
+    parser.add_argument('--version', action='version', version='%(prog)s 1.0.0')
 
     args = parser.parse_args()
-
-    # Determine which test to run
-    if args.short and args.long:
-        print("Error: Cannot specify both --short and --long")
-        return
-    elif args.short:
-        test_version = 'quick'
-    elif args.long:
-        test_version = 'standard'
-    else:
-        # Default to short if neither is specified
-        test_version = 'quick'
 
     try:
         translator.set_language(args.lang)
@@ -39,7 +50,11 @@ def main():
         sys.exit(1)
 
     # Run the test
-    results = run_test(test_version, args.lang)
+    try:
+        results = run_test(args.questions, args.lang)
+    except ValueError as e:
+        print(f"Error: {str(e)}")
+        return
 
     # Save results if requested
     if args.save and results:

@@ -1,0 +1,28 @@
+{
+    "available_tests": [
+      {
+        "question_count": 28,
+        "filename": "questions_28.json",
+        "description": {
+          "zh": "极速体验版",
+          "en": "Quick Test"
+        }
+      },
+      {
+        "question_count": 40,
+        "filename": "questions_40.json",
+        "description": {
+          "zh": "通用测试版",
+          "en": "Common Test"
+        }
+      },
+      {
+        "question_count": 93,
+        "filename": "questions_standard.json",
+        "description": {
+          "zh": "标准完整版",
+          "en": "Standard Test"
+        }
+      }
+    ]
+  }

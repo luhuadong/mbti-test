@@ -7,8 +7,8 @@
         "en": "Which statement is more accurate for me:"
       },
       "options": {
-        "zh": ["我说话的速度经常比我想的要快。", "有时我想了很久，缺什么也没说。"],
-        "en": ["I often speak faster than I think.", "Sometimes I think deeply but struggle to articulate it."]
+        "zh": ["我说话的速度经常比我想的要快。", "有时我想了很久，却什么也没说。"],
+        "en": ["I often speak faster than I think.", "Sometimes I think for a long time but say nothing."]
       },
       "dimension": "EI"
     },

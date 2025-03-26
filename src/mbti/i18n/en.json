@@ -5,8 +5,9 @@
       "last_updated": "2024-03-20"
     },
     "test_version": {
-      "quick": "Quick",
-      "standard": "Standard"
+      "28": "Quick",
+      "40": "Common",
+      "93": "Standard"
     },
     "test_ui": {
       "welcome": "🎮 MBTI Personality Test ({version})",

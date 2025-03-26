@@ -47,7 +47,7 @@ def get_localized_question(question, lang):
         'dimension': question['dimension']
     }
 
-def run_test(version='quick', language='zh'):
+def run_test(question_count, language='zh'):
     """运行测试主流程"""
     global translator
     try:
@@ -56,13 +56,13 @@ def run_test(version='quick', language='zh'):
         print(f"{COLORS['error']}Language Error: {e}{COLORS['reset']}")
         return None
     
-    questions = load_questions(version, language)
+    questions = load_questions(question_count, language)
     answers = []
     total_questions = len(questions)
 
     # 初始化界面
     clear_screen()
-    print(f"{COLORS['title']}{translator.t('test_ui.welcome', version=translator.t(f'test_version.{version}'))}{COLORS['reset']}")
+    print(f"{COLORS['title']}{translator.t('test_ui.welcome', version=translator.t(f'test_version.{question_count}'))}{COLORS['reset']}")
     print(f"{COLORS['progress']}{translator.t('test_ui.stats', language=translator.t('meta.language'), count=total_questions)}{COLORS['reset']}\n")
     input(f"{COLORS['highlight']}{translator.t('test_ui.press_start')}{COLORS['reset']}")
     clear_screen()
