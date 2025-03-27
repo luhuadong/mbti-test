@@ -20,7 +20,7 @@
       },
       "options": {
         "zh": ["夜色越深越有劲，一旦我开始投入，也许就是最晚离开的那一个。", "在夜晚开始的时候，我就疲倦了并且想回家。"],
-        "en": ["Grow more energetic as the night progresses and might be the last to leave once engaged", "Feel tired and want to go home early in the evening"]
+        "en": ["Grow more energetic as the night progresses and might be the last to leave once engaged.", "Feel tired and want to go home early in the evening."]
       },
       "dimension": "EI"
     },
@@ -32,7 +32,7 @@
       },
       "options": {
         "zh": ["与我的恋人到有很多人且社交活动频繁的地方。", "待在家中与我的恋人做一些特别的事情，例如说观赏一部有趣的录像带并享用我最爱的外带食物。"],
-        "en": ["Going to a lively social venue with my partner", "Staying home for a special night with my partner, like watching a movie and enjoying takeout"]
+        "en": ["Going to a lively social venue with my partner.", "Staying home for a special night with my partner, like watching a movie and enjoying takeout."]
       },
       "dimension": "EI"
     },
@@ -44,7 +44,7 @@
       },
       "options": {
         "zh": ["整体来说蛮健谈的。", "较安静并有所保留，直到我觉得准备好了，才开始说话。"],
-        "en": ["Am generally talkative", "Remain quiet and reserved until I feel ready to speak"]
+        "en": ["Am generally talkative.", "Remain quiet and reserved until I feel ready to speak."]
       },
       "dimension": "EI"
     },
@@ -56,7 +56,7 @@
       },
       "options": {
         "zh": ["在公众场合，比如学习工作上、休闲活动中、或当朋友介绍我给他们的朋友时。", "透过私人的方式，例如婚恋网站、网络聊天、或是由亲密的朋友和家人介绍。"],
-        "en": ["Through public settings like work, school, or friends introducing me", "Through private channels like dating apps, online chats, or close friends/family"]
+        "en": ["Through public settings like work, school, or friends introducing me.", "Through private channels like dating apps, online chats, or close friends/family."]
       },
       "dimension": "EI"
     },
@@ -68,7 +68,7 @@
       },
       "options": {
         "zh": ["很多认识的人和很亲密的朋友。", "一些很亲密的朋友和一些认识的人。"],
-        "en": ["Many acquaintances and close friends", "A few close friends and some acquaintances"]
+        "en": ["Many acquaintances and close friends.", "A few close friends and some acquaintances."]
       },
       "dimension": "EI"
     },
@@ -92,7 +92,7 @@
       },
       "options": {
         "zh": ["对目前状况的实际认知。", "对有可能发生之事的想象和期望。"],
-        "en": ["Practical understanding of current reality", "Imagination of potential possibilities"]
+        "en": ["Practical understanding of current reality.", "Imagination of potential possibilities."]
       },
       "dimension": "SN"
     },
@@ -104,7 +104,7 @@
       },
       "options": {
         "zh": ["我直接的观察和现成的经验。", "我的直觉。"],
-        "en": ["Direct observations and existing experiences", "My intuition"]
+        "en": ["Direct observations and existing experiences.", "My intuition."]
       },
       "dimension": "SN"
     },
@@ -116,7 +116,7 @@
       },
       "options": {
         "zh": ["若它没有被破坏，别修补它。", "经常联络，因为永远有进步的空间。"],
-        "en": ["Don't fix what isn't broken", "Continuously work on improvements"]
+        "en": ["Don't fix what isn't broken.", "Continuously work on improvements."]
       },
       "dimension": "SN"
     },
@@ -128,7 +128,7 @@
       },
       "options": {
         "zh": ["实际的，具体的，关于“此时此地”的事物。例如，我也许会在餐后谈论品酒的好方法，或我即将要参加的新奇旅程。", "未来，关于改进或发明事物，和生活的种种可能性。例如，我也许会谈论一个新的科学发明，或一个更好的方法来表达我的感受。"],
-        "en": ["Concrete present matters, like wine tasting tips or upcoming trips", "Future possibilities, like new inventions or emotional expression methods"]
+        "en": ["Concrete present matters, like wine tasting tips or upcoming trips.", "Future possibilities, like new inventions or emotional expression methods."]
       },
       "dimension": "SN"
     },
@@ -140,7 +140,7 @@
       },
       "options": {
         "zh": ["先掌握细节。", "先看整个大局面。"],
-        "en": ["Focuses on details first", "Sees the big picture first"]
+        "en": ["Focuses on details first.", "Sees the big picture first."]
       },
       "dimension": "SN"
     },
@@ -152,7 +152,7 @@
       },
       "options": {
         "zh": ["与其活在虚无缥缈的精神世界，我选择活在现实中。", "与其活在不完美的现实中，我选择活在我的精神世界里。"],
-        "en": ["It's better to live in reality than a fantasy world", "I prefer my mental world over an imperfect reality"]
+        "en": ["It's better to live in reality than a fantasy world.", "I prefer my mental world over an imperfect reality."]
       },
       "dimension": "SN"
     },
@@ -164,7 +164,7 @@
       },
       "options": {
         "zh": ["偏向于拘紧地想象即将来临的约会，只期待让它自然地发生。", "偏向于去想象一大堆关于即将来临之约会的事情。"],
-        "en": ["Casually imagine upcoming dates and let them unfold naturally", "Extensively imagine various scenarios about upcoming dates"]
+        "en": ["Casually imagine upcoming dates and let them unfold naturally.", "Extensively imagine various scenarios about upcoming dates."]
       },
       "dimension": "SN"
     },
@@ -176,7 +176,7 @@
       },
       "options": {
         "zh": ["首先依我的逻辑，然后依我的心意。", "首先依我的心意，然后依我的逻辑。"],
-        "en": ["Following logic first, then feelings", "Following feelings first, then logic"]
+        "en": ["Following logic first, then feelings.", "Following feelings first, then logic."]
       },
       "dimension": "TF"
     },
@@ -188,7 +188,7 @@
       },
       "options": {
         "zh": ["当人们不合逻辑时。", "当人们需要情感上的支持时。"],
-        "en": ["When people are being illogical", "When people need emotional support"]
+        "en": ["When people are being illogical.", "When people need emotional support."]
       },
       "dimension": "TF"
     },
@@ -200,7 +200,7 @@
       },
       "options": {
         "zh": ["虽然我觉得受伤，但一旦下定决心，我会直截了当地将过去恋人的影子甩开。", "我的情绪深陷其中，很难才能抽身而出。"],
-        "en": ["Can decisively move on despite the pain", "Get emotionally stuck and struggle to move forward"]
+        "en": ["Can decisively move on despite the pain.", "Get emotionally stuck and struggle to move forward."]
       },
       "dimension": "TF"
     },
@@ -212,7 +212,7 @@
       },
       "options": {
         "zh": ["智慧上的相容性：沟通重要的想法，客观地讨论和辩论事情。", "情感上的相容性：表达爱意和对另一半的需求很敏感。"],
-        "en": ["Intellectual compatibility: sharing ideas and objective discussions", "Emotional compatibility: expressing affection and sensitivity"]
+        "en": ["Intellectual compatibility: sharing ideas and objective discussions.", "Emotional compatibility: expressing affection and sensitivity."]
       },
       "dimension": "TF"
     },
@@ -224,7 +224,7 @@
       },
       "options": {
         "zh": ["我通常很直接，毫无保留地把事实和我的逻辑告诉对方，因为对的就是对的。", "我尽可能地避免伤害对方的感受；若是会对对方造成伤害的话，我就不会说。"],
-        "en": ["State facts and logic directly without holding back", "Avoid hurting feelings even if it means withholding some truths"]
+        "en": ["State facts and logic directly without holding back.", "Avoid hurting feelings even if it means withholding some truths."]
       },
       "dimension": "TF"
     },
@@ -236,7 +236,7 @@
       },
       "options": {
         "zh": ["逻辑和明确。", "热情和敏感。"],
-        "en": ["Logical and clear-cut", "Passionate and sensitive"]
+        "en": ["Logical and clear-cut.", "Passionate and sensitive."]
       },
       "dimension": "TF"
     },
@@ -248,7 +248,7 @@
       },
       "options": {
         "zh": ["经过思考的，或多或少有一定目的性。", "随意的，友善的及重要的。"],
-        "en": ["Purposeful and intentional", "Casual yet meaningful"]
+        "en": ["Purposeful and intentional.", "Casual yet meaningful."]
       },
       "dimension": "TF"
     },
@@ -260,7 +260,7 @@
       },
       "options": {
         "zh": ["必须先检查我的时间表。", "立即收拾行装。"],
-        "en": ["First check my schedule", "Start packing immediately"]
+        "en": ["First check my schedule.", "Start packing immediately."]
       },
       "dimension": "JP"
     },
@@ -272,7 +272,7 @@
       },
       "options": {
         "zh": ["若我所约的人来迟了，我心里会很不高兴。", "即使所约的人来迟了，我一点都不放在心里。"],
-        "en": ["Get annoyed if my date is late", "Not mind lateness at all"]
+        "en": ["Get annoyed if my date is late.", "Not mind lateness at all."]
       },
       "dimension": "JP"
     },
@@ -284,7 +284,7 @@
       },
       "options": {
         "zh": ["事先知道约会的行程：要去哪里、有谁参加、我会在哪里多久、该如何打扮。", "让约会自然地发生，不做先前太多的计划。"],
-        "en": ["Knowing date details in advance: location, duration, attire", "Spontaneous dates without much prior planning"]
+        "en": ["Knowing date details in advance: location, duration, attire.", "Spontaneous dates without much prior planning."]
       },
       "dimension": "JP"
     },
@@ -296,7 +296,7 @@
       },
       "options": {
         "zh": ["科学合理的安排和有毅力的执行。", "没有什么压力，所有事情自然发生和时间弹性很大。"],
-        "en": ["Structured planning and disciplined execution", "Low pressure with natural flow and flexibility"]
+        "en": ["Structured planning and disciplined execution.", "Low pressure with natural flow and flexibility."]
       },
       "dimension": "JP"
     },
@@ -308,7 +308,7 @@
       },
       "options": {
         "zh": ["我先入会场而其它人随后来到。", "大部分人都先到而我最后一个来。"],
-        "en": ["I arrive first with others following", "I'm usually the last to arrive"]
+        "en": ["I arrive first with others following.", "I'm usually the last to arrive."]
       },
       "dimension": "JP"
     },
@@ -320,7 +320,7 @@
       },
       "options": {
         "zh": ["快刀斩乱麻，下定决心并且做出最后肯定的结论。", "放开我的选择并且持续收集信息，这样结果会更准确和深刻。"],
-        "en": ["Making quick decisions and final conclusions", "Keeping options open while gathering more information"]
+        "en": ["Making quick decisions and final conclusions.", "Keeping options open while gathering more information."]
       },
       "dimension": "JP"
     },
@@ -332,7 +332,7 @@
       },
       "options": {
         "zh": ["喜欢在一个时间里专心于一件事情直到完成。", "喜欢同时进行好几件事情。"],
-        "en": ["Focuses on one task at a time until completion", "Enjoys multitasking across several activities"]
+        "en": ["Focuses on one task at a time until completion.", "Enjoys multitasking across several activities."]
       },
       "dimension": "JP"
     }
