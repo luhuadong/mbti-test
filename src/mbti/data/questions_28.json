@@ -3,338 +3,338 @@
       {
         "id": 1,
         "question": {
-          "zh": "你更喜欢与少数几个亲密朋友共度时光，而不是参加大型社交活动。",
-          "en": "You prefer spending time with a few close friends rather than attending large social events."
+          "zh": "我倾向从何处得到动力和信心：",
+          "en": ""
         },
         "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
+          "zh": ["别人。", "我自己的想法。"],
+          "en": ["", ""]
         },
         "dimension": "EI"
       },
       {
         "id": 2,
         "question": {
-          "zh": "在解决问题时，你更倾向于依赖逻辑和分析，而不是个人感受。",
-          "en": "When solving problems, you rely more on logic and analysis than on personal feelings."
+          "zh": "当我参加一个社交聚会时，我一般是这样的状态：",
+          "en": ""
         },
         "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
-        },
-        "dimension": "TF"
-      },
-      {
-        "id": 3,
-        "question": {
-          "zh": "你更喜欢有计划和安排的活动，而不是即兴的活动。",
-          "en": "You prefer planned and scheduled activities over spontaneous ones."
-        },
-        "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
-        },
-        "dimension": "JP"
-      },
-      {
-        "id": 4,
-        "question": {
-          "zh": "你更关注具体的事实和细节，而不是抽象的概念和可能性。",
-          "en": "You focus more on concrete facts and details rather than abstract concepts and possibilities."
-        },
-        "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
-        },
-        "dimension": "SN"
-      },
-      {
-        "id": 5,
-        "question": {
-          "zh": "在团队中，你更喜欢担任协调和组织的角色，而不是执行具体任务的角色。",
-          "en": "In a team, you prefer to take on coordinating and organizing roles rather than executing specific tasks."
-        },
-        "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
-        },
-        "dimension": "JP"
-      },
-      {
-        "id": 6,
-        "question": {
-          "zh": "你更倾向于通过直接和坦率的沟通来解决问题，而不是委婉和间接的方式。",
-          "en": "You prefer direct and candid communication to solve problems rather than indirect and subtle approaches."
-        },
-        "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
-        },
-        "dimension": "TF"
-      },
-      {
-        "id": 7,
-        "question": {
-          "zh": "你更喜欢探索新的想法和可能性，而不是遵循传统的方法。",
-          "en": "You prefer exploring new ideas and possibilities over following traditional methods."
-        },
-        "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
-        },
-        "dimension": "SN"
-      },
-      {
-        "id": 8,
-        "question": {
-          "zh": "在社交场合中，你更喜欢观察和倾听，而不是成为众人关注的焦点。",
-          "en": "In social situations, you prefer to observe and listen rather than be the center of attention."
-        },
-        "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
+          "zh": ["夜色越深越有劲，一旦我开始投入，也许就是最晚离开的那一个。", "在夜晚开始的时候，我就疲倦了并且想回家。"],
+          "en": ["", ""]
         },
         "dimension": "EI"
       },
       {
-        "id": 9,
+        "id": 3,
         "question": {
-          "zh": "你更倾向于根据个人价值观来做决策，而不是严格遵循规则。",
-          "en": "You make decisions based on personal values rather than strictly following rules."
+          "zh": "下列哪一种听起来比较吸引人？",
+          "en": ""
         },
         "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
+          "zh": ["与我的恋人到有很多人且社交活动频繁的地方。", "待在家中与我的恋人做一些特别的事情，例如说观赏一部有趣的录像带并享用我最爱的外带食物。"],
+          "en": ["", ""]
         },
-        "dimension": "TF"
+        "dimension": "EI"
+      },
+      {
+        "id": 4,
+        "question": {
+          "zh": "在约会中，我通常：",
+          "en": ""
+        },
+        "options": {
+          "zh": ["整体来说蛮健谈的。", "较安静并有所保留，直到我觉得准备好了，才开始说话。"],
+          "en": ["", ""]
+        },
+        "dimension": "EI"
+      },
+      {
+        "id": 5,
+        "question": {
+          "zh": "过去，我遇见我大部分恋人是：",
+          "en": ""
+        },
+        "options": {
+          "zh": ["在公众场合，比如学习工作上、休闲活动中、或当朋友介绍我给他们的朋友时。", "透过私人的方式，例如婚恋网站、网络聊天、或是由亲密的朋友和家人介绍。"],
+          "en": ["", ""]
+        },
+        "dimension": "EI"
+      },
+      {
+        "id": 6,
+        "question": {
+          "zh": "论真实的想法，我倾向拥有：",
+          "en": ""
+        },
+        "options": {
+          "zh": ["很多认识的人和很亲密的朋友。", "一些很亲密的朋友和一些认识的人。"],
+          "en": ["", ""]
+        },
+        "dimension": "EI"
+      },
+      {
+        "id": 7,
+        "question": {
+          "zh": "过去，我的恋人倾向对我说这些：",
+          "en": ""
+        },
+        "options": {
+          "zh": ["你难道不可以安静一点吗？", "你能从自己的世界里面走出来一下吗？"],
+          "en": ["", ""]
+        },
+        "dimension": "EI"
+      },
+      {
+        "id": 8,
+        "question": {
+          "zh": "我倾向透过以下方式形成脑海中的概念：",
+          "en": ""
+        },
+        "options": {
+          "zh": ["对目前状况的实际认知。", "对有可能发生之事的想象和期望。"],
+          "en": ["", ""]
+        },
+        "dimension": "SN"
+      },
+      {
+        "id": 9,
+        "question": {
+          "zh": "在我做分析的时候，首先能意识到的是：",
+          "en": ""
+        },
+        "options": {
+          "zh": ["我直接的观察和现成的经验。", "我的直觉。"],
+          "en": ["", ""]
+        },
+        "dimension": "SN"
       },
       {
         "id": 10,
         "question": {
-          "zh": "你更喜欢灵活和开放的环境，而不是结构化和固定的环境。",
-          "en": "You prefer flexible and open environments over structured and fixed ones."
+          "zh": "在我自己的人际关系中，我一般是这样处理的：",
+          "en": ""
         },
         "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
+          "zh": ["若它没有被破坏，别修补它。", "经常联络，因为永远有进步的空间。"],
+          "en": ["", ""]
         },
-        "dimension": "JP"
+        "dimension": "SN"
       },
       {
         "id": 11,
         "question": {
-          "zh": "你更关注当前的现实情况，而不是未来的可能性。",
-          "en": "You focus more on current realities than on future possibilities."
+          "zh": "当我在约会觉得放松时，我倾向谈论：",
+          "en": ""
         },
         "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
+          "zh": ["实际的，具体的，关于“此时此地”的事物。例如，我也许会在餐后谈论品酒的好方法，或我即将要参加的新奇旅程。", "未来，关于改进或发明事物，和生活的种种可能性。例如，我也许会谈论一个新的科学发明，或一个更好的方法来表达我的感受。"],
+          "en": ["", ""]
         },
         "dimension": "SN"
       },
       {
         "id": 12,
         "question": {
-          "zh": "你更喜欢与他人合作完成任务，而不是独自工作。",
-          "en": "You prefer working with others to complete tasks rather than working alone."
+          "zh": "我是这种人：",
+          "en": ""
         },
         "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
+          "zh": ["先掌握细节。", "先看整个大局面。"],
+          "en": ["", ""]
         },
-        "dimension": "EI"
+        "dimension": "SN"
       },
       {
         "id": 13,
         "question": {
-          "zh": "在做决定时，你更倾向于考虑长远的影响，而不是眼前的利益。",
-          "en": "When making decisions, you consider long-term impacts over short-term gains."
+          "zh": "在我内心深处，我认为：",
+          "en": ""
         },
         "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
+          "zh": ["与其活在虚无缥缈的精神世界，我选择活在现实中。", "与其活在不完美的现实中，我选择活在我的精神世界里。"],
+          "en": ["", ""]
         },
-        "dimension": "TF"
+        "dimension": "SN"
       },
       {
         "id": 14,
         "question": {
-          "zh": "你更喜欢有明确截止日期的任务，而不是可以随时调整时间的任务。",
-          "en": "You prefer tasks with clear deadlines over those with flexible timeframes."
+          "zh": "我通常：",
+          "en": ""
         },
         "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
+          "zh": ["偏向于拘紧地想象即将来临的约会，只期待让它自然地发生。", "偏向于去想象一大堆关于即将来临之约会的事情。"],
+          "en": ["", ""]
         },
-        "dimension": "JP"
+        "dimension": "SN"
       },
       {
         "id": 15,
         "question": {
-          "zh": "你更倾向于相信直觉和灵感，而不是经验和常识。",
-          "en": "You trust intuition and inspiration more than experience and common sense."
+          "zh": "我倾向如此做决定：",
+          "en": ""
         },
         "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
+          "zh": ["首先依我的逻辑，然后依我的心意。", "首先依我的心意，然后依我的逻辑。"],
+          "en": ["", ""]
         },
-        "dimension": "SN"
+        "dimension": "TF"
       },
       {
         "id": 16,
         "question": {
-          "zh": "在学习新知识时，你更喜欢通过实践和操作来理解，而不是通过理论和讲解。",
-          "en": "When learning new things, you prefer hands-on practice over theoretical explanations."
+          "zh": "我倾向比较能够察觉到：",
+          "en": ""
         },
         "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
+          "zh": ["当人们不合逻辑时。", "当人们需要情感上的支持时。"],
+          "en": ["", ""]
         },
-        "dimension": "SN"
+        "dimension": "TF"
       },
       {
         "id": 17,
         "question": {
-          "zh": "你更喜欢在决策时考虑他人的感受，而不是单纯追求效率和结果。",
-          "en": "You consider others' feelings when making decisions rather than focusing solely on efficiency and results."
+          "zh": "当自己和某人分手时。",
+          "en": ""
         },
         "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
+          "zh": ["虽然我觉得受伤，但一旦下定决心，我会直截了当地将过去恋人的影子甩开。", "我的情绪深陷其中，很难才能抽身而出。"],
+          "en": ["", ""]
         },
         "dimension": "TF"
       },
       {
         "id": 18,
         "question": {
-          "zh": "你更倾向于提前准备好所有细节，而不是在过程中逐步完善。",
-          "en": "You prefer to prepare all details in advance rather than perfecting them during the process."
+          "zh": "当与一个人交往时，我倾向评量：",
+          "en": ""
         },
         "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
+          "zh": ["智慧上的相容性：沟通重要的想法，客观地讨论和辩论事情。", "情感上的相容性：表达爱意和对另一半的需求很敏感。"],
+          "en": ["", ""]
         },
-        "dimension": "JP"
+        "dimension": "TF"
       },
       {
         "id": 19,
         "question": {
-          "zh": "你更喜欢与人进行深入的一对一交流，而不是在群体中活跃。",
-          "en": "You prefer deep one-on-one conversations over being active in groups."
+          "zh": "当我不同意我恋人的想法时：",
+          "en": ""
         },
         "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
+          "zh": ["我通常很直接，毫无保留地把事实和我的逻辑告诉对方，因为对的就是对的。", "我尽可能地避免伤害对方的感受；若是会对对方造成伤害的话，我就不会说。"],
+          "en": ["", ""]
         },
-        "dimension": "EI"
+        "dimension": "TF"
       },
       {
         "id": 20,
         "question": {
-          "zh": "在面对问题时，你更倾向于寻找客观的事实和数据来支持你的观点。",
-          "en": "When facing issues, you look for objective facts and data to support your views."
+          "zh": "认识我的人倾向形容我为：",
+          "en": ""
         },
         "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
+          "zh": ["逻辑和明确。", "热情和敏感。"],
+          "en": ["", ""]
         },
         "dimension": "TF"
       },
       {
         "id": 21,
         "question": {
-          "zh": "你更喜欢有明确规则和流程的工作环境，而不是自由度较高的环境。",
-          "en": "You prefer work environments with clear rules and processes over those with high freedom."
+          "zh": "我认为自己和很多人的相遇是：",
+          "en": ""
         },
         "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
-        },
-        "dimension": "JP"
-      },
-      {
-        "id": 22,
-        "question": {
-          "zh": "你更关注事物的潜在意义和影响，而不是表面的现象。",
-          "en": "You focus more on the potential meaning and impact of things rather than their surface appearances."
-        },
-        "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
-        },
-        "dimension": "SN"
-      },
-      {
-        "id": 23,
-        "question": {
-          "zh": "在社交活动中，你更喜欢作为组织者或策划者，而不是参与者。",
-          "en": "In social activities, you prefer to be the organizer or planner rather than a participant."
-        },
-        "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
-        },
-        "dimension": "EI"
-      },
-      {
-        "id": 24,
-        "question": {
-          "zh": "你更倾向于通过协商和妥协来解决冲突，而不是坚持自己的立场。",
-          "en": "You resolve conflicts through negotiation and compromise rather than holding firm to your position."
-        },
-        "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
+          "zh": ["经过思考的，或多或少有一定目的性。", "随意的，友善的及重要的。"],
+          "en": ["", ""]
         },
         "dimension": "TF"
       },
       {
-        "id": 25,
+        "id": 22,
         "question": {
-          "zh": "你更喜欢在项目开始时就有一个清晰的计划，而不是边做边调整。",
-          "en": "You prefer to have a clear plan at the start of a project rather than adjusting as you go."
+          "zh": "若我有时间和金钱，我的朋友邀请我到国外度假，并且在一天前才通知，我会：",
+          "en": ""
         },
         "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
+          "zh": ["必须先检查我的时间表。", "立即收拾行装。"],
+          "en": ["", ""]
+        },
+        "dimension": "JP"
+      },
+      {
+        "id": 23,
+        "question": {
+          "zh": "在第一次约会中：",
+          "en": ""
+        },
+        "options": {
+          "zh": ["若我所约的人来迟了，我心里会很不高兴。", "即使所约的人来迟了，我一点都不放在心里。"],
+          "en": ["", ""]
+        },
+        "dimension": "JP"
+      },
+      {
+        "id": 24,
+        "question": {
+          "zh": "我偏好：",
+          "en": ""
+        },
+        "options": {
+          "zh": ["事先知道约会的行程：要去哪里、有谁参加、我会在哪里多久、该如何打扮。", "让约会自然地发生，不做先前太多的计划。"],
+          "en": ["", ""]
+        },
+        "dimension": "JP"
+      },
+      {
+        "id": 25,
+        "question": {
+          "zh": "我期待的生活包含着：",
+          "en": ""
+        },
+        "options": {
+          "zh": ["科学合理的安排和有毅力的执行。", "没有什么压力，所有事情自然发生和时间弹性很大。"],
+          "en": ["", ""]
         },
         "dimension": "JP"
       },
       {
         "id": 26,
         "question": {
-          "zh": "你更倾向于相信科学和逻辑，而不是直觉和灵感。",
-          "en": "You trust science and logic more than intuition and inspiration."
+          "zh": "哪一项较为常见：",
+          "en": ""
         },
         "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
+          "zh": ["我先入会场而其它人随后来到。", "大部分人都先到而我最后一个来。"],
+          "en": ["", ""]
         },
-        "dimension": "SN"
+        "dimension": "JP"
       },
       {
         "id": 27,
         "question": {
-          "zh": "在与他人合作时，你更喜欢明确分工，而不是灵活调整各自的任务。",
-          "en": "When collaborating with others, you prefer clear division of labor over flexible task adjustments."
+          "zh": "我是这样喜欢……的人：",
+          "en": ""
         },
         "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
+          "zh": ["快刀斩乱麻，下定决心并且做出最后肯定的结论。", "放开我的选择并且持续收集信息，这样结果会更准确和深刻。"],
+          "en": ["", ""]
         },
         "dimension": "JP"
       },
       {
         "id": 28,
         "question": {
-          "zh": "你更喜欢在安静的环境中独自思考，而不是在热闹的氛围中获取灵感。",
-          "en": "You prefer quiet environments for thinking alone rather than seeking inspiration in lively atmospheres."
+          "zh": "我是这类型的人：",
+          "en": ""
         },
         "options": {
-          "zh": ["是", "否"],
-          "en": ["Yes", "No"]
+          "zh": ["喜欢在一个时间里专心于一件事情直到完成。", "喜欢同时进行好几件事情。"],
+          "en": ["", ""]
         },
-        "dimension": "EI"
+        "dimension": "JP"
       }
     ]
 }
